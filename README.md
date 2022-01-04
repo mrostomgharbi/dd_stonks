@@ -8,20 +8,17 @@ This version adds some options and features that the original did not have.
 	- ability to pull additional stock information from yahoo (such as open and close price, volume, average volumn, etc)
 	- ability to pull results from multiple subreddits (pennystocks, RobinHoodPennyStocks, stocks, Daytrading, etc)
 	- added score system to calculate a score for each ticker based on the number of occurrences, DD or Catalyst flair, and number of upvotes
-	- Can be run with a windows schedular to run the program at a set time everyday
 
 ## Requirements 
 
-Python (tested on python 3.8) 
-
-Pip python get-pip.py https://phoenixnap.com/kb/install-pip-windows#:~:text=PIP%20is%20automatically%20installed%20with,9%2B%20and%20Python%203.4%2B.
+Python 3.8
 
 psaw - pip install psaw https://pypi.org/project/psaw/
 
 yahooquery - pip install yahooquery https://pypi.org/project/yahooquery/
 
 ## Running
-Simply open the terminal (powershell or command prompt in windows) and navigate to the AutoDD.py folder, then type:
+Simply open the terminal and navigate to the AutoDD.py folder, then type:
 
     python AutoDD.py
 
